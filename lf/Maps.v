@@ -382,5 +382,4 @@ Proof.
   apply t_update_permute.
 Qed.
 
-(** $Date: 2017-11-28 16:16:24 -0500 (Tue, 28 Nov 2017) $ *)
 

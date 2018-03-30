@@ -1785,5 +1785,4 @@ End BreakImp.
 (* FILL IN HERE *)
 (** [] *)
 
-(** $Date: 2017-11-21 09:02:43 -0500 (Tue, 21 Nov 2017) $ *)
 

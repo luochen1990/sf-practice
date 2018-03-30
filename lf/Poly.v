@@ -1124,5 +1124,4 @@ End Church.
 
 End Exercises.
 
-(** $Date: 2018-01-23 21:16:07 -0500 (Tue, 23 Jan 2018) $ *)
 

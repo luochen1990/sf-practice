@@ -89,4 +89,4 @@
          https://deepspec.org/event/dsss17/index.html
 *)
 
-(** $Date: 2017-09-05 08:29:10 -0400 (Tue, 05 Sep 2017) $ *)
+(** $Date$ *)

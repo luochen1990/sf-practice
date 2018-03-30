@@ -129,4 +129,3 @@ Extraction "imp.ml" empty_state ceval_step parse.
     chapter in _Verified Functional Algorithms_ (_Software
     Foundations_ volume 3). *)
 
-(** $Date: 2017-11-29 14:31:19 -0500 (Wed, 29 Nov 2017) $ *)

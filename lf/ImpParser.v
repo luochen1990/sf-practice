@@ -17,7 +17,7 @@
     make out -- but most readers will probably want to just skim down
     to the Examples section at the very end to get the punchline. *)
 
-Set Warnings "-notation-overridden,-parsing,-deprecated-implicit-arguments".
+Set Warnings "-notation-overridden,-parsing".
 Require Import Coq.Strings.String.
 Require Import Coq.Strings.Ascii.
 Require Import Coq.Arith.Arith.
@@ -124,8 +124,8 @@ Inductive optionE (X:Type) : Type :=
   | SomeE : X -> optionE X
   | NoneE : string -> optionE X.
 
-Implicit Arguments SomeE [[X]].
-Implicit Arguments NoneE [[X]].
+Arguments SomeE {X}.
+Arguments NoneE {X}.
 
 (** Some syntactic sugar to make writing nested match-expressions on
     optionE more convenient. *)
@@ -426,4 +426,3 @@ Example eg1 : parse "
      []). 
 Proof. reflexivity. Qed.
 
-(** $Date: 2017-11-28 16:16:24 -0500 (Tue, 28 Nov 2017) $ *)

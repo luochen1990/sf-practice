@@ -662,4 +662,4 @@ Proof. eauto. Qed.
     [auto] most of the time, only switching to the [e] variants when
     the ordinary variants don't do the job. *)
 
-(** $Date: 2017-10-17 21:08:31 -0400 (Tue, 17 Oct 2017) $ *)
+

@@ -387,4 +387,3 @@ Proof.
   (* FILL IN HERE *) Admitted.
 (** [] *)
 
-(** $Date: 2017-10-11 15:00:37 -0400 (Wed, 11 Oct 2017) $ *)

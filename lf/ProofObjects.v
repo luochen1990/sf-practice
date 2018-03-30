@@ -604,5 +604,4 @@ Proof.
     must be the same!  The [inversion] tactic adds this fact to the
     context. *)
 
-(** $Date: 2017-11-29 14:31:19 -0500 (Wed, 29 Nov 2017) $ *)
 

@@ -71,7 +71,7 @@ Fixpoint ceval_step1 (st : state) (c : com) : state :=
     _or_ it runs out of gas, at which point we simply stop evaluating
     and say that the final result is the empty memory.  (We could also
     say that the result is the current state at the point where the
-    evaluator runs out fo gas -- it doesn't really matter because the
+    evaluator runs out of gas -- it doesn't really matter because the
     result is going to be wrong in either case!) *)
 
 Fixpoint ceval_step2 (st : state) (c : com) (i : nat) : state :=
@@ -380,4 +380,3 @@ Proof.
   rewrite E1 in E2. inversion E2. reflexivity.
   omega. omega.  Qed.
 
-(** $Date: 2017-10-11 15:00:37 -0400 (Wed, 11 Oct 2017) $ *)

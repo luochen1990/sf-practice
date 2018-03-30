@@ -1454,4 +1454,3 @@ Definition implies_to_or := forall P Q:Prop,
 (* FILL IN HERE *)
 (** [] *)
 
-(** $Date: 2017-11-14 17:52:45 -0500 (Tue, 14 Nov 2017) $ *)
