@@ -1,0 +1,6 @@
+*/common/
+*.glob
+*.vo
+*.aux
+*.html
+*.report
